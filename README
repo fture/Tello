@@ -1,0 +1,9 @@
+python venv Tello_venv
+
+source Tello_venv/Script/activate.bat
+
+
+pip install -r requirement.txt
+
+
+python test_camera_without_activating.py
